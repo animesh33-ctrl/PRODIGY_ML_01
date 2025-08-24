@@ -25,12 +25,12 @@ The app is built with **Gradio**, so you can interact with it via a clean UI in 
 ```bash
 
 PRODIGY_ML_01/
-│── 01_House Pricing/ # Dataset & preprocessing files (if any)
-│ ├── 01_House_Pricing.ipynb # Jupyter Notebook (EDA + Training)
-│ ├── 01_House_Pricing_UI.py # Gradio UI for predictions
-│ ├── house_lr.joblib # Saved ML model
+│── 01_House Pricing/           # Dataset & preprocessing files (if any)
+│ ├── 01_House_Pricing.ipynb    # Jupyter Notebook (EDA + Training)
+│ ├── 01_House_Pricing_UI.py    # Gradio UI for predictions
+│ ├── house_lr.joblib           # Saved ML model
 │
-│── README.md # Project documentation
+│── README.md
 ```
 
 ---
