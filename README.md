@@ -22,12 +22,15 @@ The app is built with **Gradio**, so you can interact with it via a clean UI in 
 
 ## 📂 Project Structure
 
+```bash
 PRODIGY_ML_01/
-│── 01_House Pricing/ # Dataset & preprocessing files (if any)
-│── 01_House_Pricing.ipynb # Jupyter Notebook (EDA + Training)
-│── 01_House_Pricing_UI.py # Gradio UI for predictions
-│── house_lr.joblib # Saved ML model
-│── README.md # Project documentation
+│── 01_House Pricing/            # Dataset & preprocessing files (if any)
+│   ├── 01_House_Pricing.ipynb   # Jupyter Notebook (EDA + Training)
+│   ├── 01_House_Pricing_UI.py   # Gradio UI for predictions
+│   ├── house_lr.joblib          # Saved ML model
+│
+│── README.md                    # Project documentation
+```
 
 ---
 
@@ -36,12 +39,14 @@ PRODIGY_ML_01/
 Clone the repo and install required dependencies:
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/animesh33-ctrl/PRODIGY_ML_01
 cd PRODIGY_ML_01
 pip install -r requirements.txt
-
+```
 
 🚀 Usage
+
+```bash
 1️⃣ Train the Model (Optional)
 
 If you want to retrain:
